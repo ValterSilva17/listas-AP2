@@ -1,0 +1,6 @@
+def converter(celsius):
+    fahrenheit = (celsius * 1.8) + 32
+    return fahrenheit
+
+resultado = converter (30)
+print(f"30°C equivalem a {resultado}°F") 
