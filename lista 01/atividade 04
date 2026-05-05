@@ -1,0 +1,11 @@
+par = int(input("Digite um numero: "))
+
+
+def par_impar(par):
+    if par % 2 == 0:
+        return True
+    else: 
+        return False
+    
+    print(par_impar)
+    
