@@ -1,0 +1,11 @@
+def fatorial_recursivo(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * fatorial_recursivo(n - 1)
+    
+fatorial = int(input("Digite um número para calcular o fatorial: "))
+
+resultado = fatorial_recursivo(fatorial)
+    
+print(f"O fatorial de {fatorial} é {resultado}")
