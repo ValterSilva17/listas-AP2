@@ -1,0 +1,12 @@
+investimento_global = "Tesouro Direto"
+
+def minha_funcao():
+    investimento_local = "Ações VALE3"
+    
+    print(f"Dentro da função: Eu consigo ver a global ({investimento_global})")
+    print(f"Dentro da função: Eu consigo ver a local ({investimento_local})")
+
+minha_funcao()
+
+print("\n--- Fora da função ---")
+print(f"Fora da função: Eu ainda vejo a global ({investimento_global})")
