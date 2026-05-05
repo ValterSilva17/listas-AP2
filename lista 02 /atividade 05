@@ -1,0 +1,5 @@
+def inverter_frase(frase):
+    return frase[::-1]
+
+entrada = input("Digite qualquer coisav: ")
+print(f"Invertido: {inverter_frase(entrada)}")
