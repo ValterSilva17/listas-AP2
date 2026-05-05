@@ -1,0 +1,6 @@
+base = int(input("Digite o valor da base: "))
+altura = int(input("Digite o valor da autura: "))
+
+area = base * altura
+
+print(f"A area do retangulo é: {area:.2f}")
