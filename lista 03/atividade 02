@@ -1,0 +1,8 @@
+def configurar_perfil(nome, idade, cidade="Desconhecida"):
+    perfil = f"Nome: {nome} | Idade: {idade} | Cidade: {cidade}"
+    return perfil
+
+configurar = input("Digite seu dados: ")
+
+perfil = configurar_perfil(configurar)
+print(perfil)
