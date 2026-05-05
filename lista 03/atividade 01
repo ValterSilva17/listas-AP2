@@ -1,0 +1,12 @@
+def leiaInt(mensagem):
+    while True:
+        entrada = input(mensagem)
+        try:
+            valor = int(entrada)
+            return valor  
+        except ValueError:
+            
+            print(" Erro! Digite um número válido.")
+
+n = leiaInt("Digite o valor que deseja investir: R$ ")
+print(f"Você escolheu investir R$ {n}. Excelente escolha!")
