@@ -1,0 +1,20 @@
+def encontrar_produto_mais_caro(lista_produtos):
+    if not lista_produtos:
+        return None
+
+    mais_caro = lista_produtos[0]
+
+    for produto in lista_produtos:
+        if produto["preco"] > mais_caro["preco"]:
+            mais_caro = produto
+            
+    return mais_caro
+produtos = [
+    {"nome": "Ação VALE3", "preco": 15.50},
+    {"nome": "Ação PETR4", "preco": 38.20},
+    {"nome": "Ação ITUB4", "preco": 32.90}
+]
+
+resultado = encontrar_produto_mais_caro(produtos)
+
+print(f"O produto mais caro é: {resultado['nome']} custando R$ {resultado['preco']}")
